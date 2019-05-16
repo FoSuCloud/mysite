@@ -1,0 +1,15 @@
+{#margin外边距，padding内边距#}
+*{
+margin:0;
+padding:0;
+}
+{#!important说明这是非常重要的#}
+body{
+margin-top:70px!important;
+}
+ul{
+list-style-type: none;
+}
+ul.navbar-right{
+margin-right:0;
+}

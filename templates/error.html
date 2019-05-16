@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{#home.html也是继承于base.html的文件，可以在base中的块添加相应的内容#}
+{% block title %}
+    我的网站|错误
+{% endblock %}
+
+{% block nav_home_active %}
+active
+{% endblock  %}
+
+{% block content %}
+   {{ message }},<a href="{{ readirect_to }}">返回</a>
+{% endblock %}
